@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-06T10:13:08.288Z",
+        "line": 3,
+        "name": "Successfull Registration in TestMe Application",
+        "description": "",
+        "id": "registration-process;successfull-registration-in-testme-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21622702300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on the login page",
+            "match": {
+              "location": "casestudy1.user_should_be_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3012535500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the details and click register button",
+            "match": {
+              "location": "casestudy1.user_should_enter_the_details_and_click_register_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "firstname",
+                  "lastName",
+                  "password",
+                  "password_confirmation",
+                  "Gender",
+                  "E_mail",
+                  "mobilenumber",
+                  "DOB",
+                  "Address",
+                  "security_ques",
+                  "Answer"
+                ]
+              },
+              {
+                "cells": [
+                  "Anushka",
+                  "Anushka",
+                  "sharma",
+                  "anush1997",
+                  "anush1997",
+                  "Female",
+                  "anush97@gmail.com",
+                  "1234567890",
+                  "21/07/1997",
+                  "shakthi nagar",
+                  "411011",
+                  "red"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Successfull user registration",
+            "match": {
+              "location": "casestudy1.successfull_user_registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@case"
+          }
+        ]
+      }
+    ],
+    "name": "Registration process",
+    "description": "",
+    "id": "registration-process",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/case1.feature",
+    "tags": []
+  }
+]
